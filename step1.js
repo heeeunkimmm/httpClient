@@ -17,7 +17,7 @@ function getAndPrintHTMLChunks () {
     response.on('end', function() {
     console.log("Ended GET request.")
     });
-  });
+    });
 }
 
-console.log(getAndPrintHTMLChunks())
+getAndPrintHTMLChunks()
